@@ -46,3 +46,17 @@ Add C:\spark\bin to your Windows PATH environment variable
 * Install PySpark:
 Run: pip install pyspark kafka-python
 
+# Run Instructions
+Make sure Kafka is running (Zookeeper and Kafka Server)
+
+Run the Data Producer:
+Open a new Command Prompt
+Run: <mark>python data_producer.py</mark>
+
+Run the Spark Consumer:
+Open another Command Prompt
+<mark>Run: python spark_consumer.py</mark>
+
+Watch the Results:
+The producer will generate random e-commerce events
+Spark will process these events and show average prices by action in 1-minute windows
