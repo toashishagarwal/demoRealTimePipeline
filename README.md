@@ -1,5 +1,5 @@
 # Demo Real Time Pipeline
-This application ingests real time data synthetic data into Kafka Topic. A spark consumer then consumes this data, does transformations on it and displays the result
+This application ingests real time data (synthetically generated) into Kafka Topic. A spark consumer then consumes this data, does transformations on it and displays the result
 on console
 
 # Prerequisites
